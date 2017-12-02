@@ -1,0 +1,88 @@
+/*
+* @Author: asus
+* @Date:   2017-11-26 19:56:26
+* @Last Modified by:   asus
+* @Last Modified time: 2017-11-26 20:09:48
+*/
+/* 固定头部 */
+
+img{
+  vertical-align: middle;
+}
+.lt-header {
+  background-color:#046691;
+}
+
+.lt-header .mui-title {
+  color: #fff;
+}
+
+.lt-header .lt-search {
+  color: #fff;
+  line-height: 44px;
+}
+
+/* 中间内容 */
+.content{
+	margin-top: 55px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+.content .login{
+	width: 100%;
+	height: 40px;
+	background-color: #0c7afe;
+	color: #fff;
+}
+.content .eye{
+	position: absolute;
+	right: 15px;
+	top: 67px;
+}
+.content .free{
+	display: inline-block;
+	margin-top: 20px;
+	position: absolute;
+	right: 10px;
+	font-size: 14px;
+}
+
+ /* 固定底部 */
+.lt-footer {
+  background-color: #046691;
+}
+.lt-footer .mui-item {
+  display: table-cell;
+  overflow: hidden;
+ /*  width: 1%; */
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #929292;
+}
+
+.lt-footer .mui-item span[class^='fa']{
+
+}
+.lt-footer .mui-item  {
+  color: #fff;
+}
+
+.lt-footer .mui-item.mui-active {
+  color: orange;
+}
+
+.lt-footer .mui-item span[class^='mui']{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+  
+  .lt-footer .mui-icon{
+    display: inline-block;
+    font-size: 24px;
+  }

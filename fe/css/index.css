@@ -1,0 +1,207 @@
+/* 固定头部 */
+body{
+  background-color: #fff;
+}
+img{
+  vertical-align: middle;
+}
+.lt-header {
+  background-color:#046691;
+}
+
+.lt-header .mui-title {
+  color: #fff;
+}
+
+.lt-header .lt-search {
+  color: #fff;
+  line-height: 44px;
+}
+/* 中间部分 */
+/* 轮播图 */
+.content{
+  margin-top: 44px;
+}
+/* //六张图片表格 */
+.six_pic {
+  width: 100%;
+  padding: 0px 10px 0 10px;
+  box-sizing: border-box;
+}
+.six_pic ul {
+   width: 100%;
+   padding: 0;
+  
+}
+.six_pic li{
+  list-style: none;
+  width: 32.45%;
+  display: inline-block;
+}
+.six_pic li img{ 
+  width: 100%;
+}
+
+
+/* 五张图 */
+.five_pic{
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-top: -20px;
+  overflow: hidden;
+}
+.five_pic .right img{
+width:33%; 
+float: right;
+}
+.five_pic .top img{
+  width: 33.25%;
+  float: left;
+}
+.five_pic .bottom img{
+  width: 33.25%;
+}
+
+/* 八张运动图片 */
+.banner{
+  width: 100%;
+  padding: 0 10px;
+  
+}
+.banner img{
+  width: 100%;
+}
+.brand{
+  width: 100%;
+  padding: 0 10px;
+  
+}
+.brand img{
+  width: 24%;
+}
+
+.que{
+  width: 100%;
+  padding: 0 10px;
+}
+.que img{
+  width: 100%;
+}
+
+/* 图 */
+ .tu {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.tu .adi{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.tu .adi .left{
+  width: 49.4%;
+  height: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  float: left;
+}
+.tu .adi .left img{
+  width: 100%;
+}
+.tu .adi .right{
+  width: 49.4%;
+  height: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  float: right;
+}
+.tu .adi .right img{
+  width: 100%;
+}
+.tu .ads .left{
+  width: 49.4%;
+  height: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  float: left;
+}
+ .tu .ads .left img{
+  width: 100%;
+}
+ .tu .ads .right{
+  width:  49.4%;
+  height: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  float: right;
+}
+.tu .ads{
+  margin-bottom: 100px;
+}
+.tu .ads .right img{
+  width: 100%;
+}
+.tu span{
+  display: inline-block;
+  color: #ccc;
+  font-size: 14px;
+}
+ .tu .price{
+  color: red;
+}
+ .tu s{
+  color: #ccc;
+}
+.tu button{
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  color: #fff;
+}
+
+
+
+
+
+/* 固定底部 */
+.lt-footer {
+  background-color: #046691;
+}
+.lt-footer .mui-item {
+  display: table-cell;
+  overflow: hidden;
+ /*  width: 1%; */
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #929292;
+}
+
+.lt-footer .mui-item span[class^='fa']{
+
+}
+.lt-footer .mui-item  {
+  color: #fff;
+}
+
+.lt-footer .mui-item.mui-active {
+  color: orange;
+}
+
+.lt-footer .mui-item  span[class^='mui']{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+  
+  .lt-footer .mui-icon{
+    display: inline-block;
+    font-size: 24px;
+  }

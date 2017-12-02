@@ -1,0 +1,103 @@
+/*
+* @Author: asus
+* @Date:   2017-11-26 18:45:35
+* @Last Modified by:   asus
+* @Last Modified time: 2017-11-26 19:30:16
+*/
+/* 固定头部 */
+
+img{
+  vertical-align: middle;
+}
+.lt-header {
+  background-color:#046691;
+}
+
+.lt-header .mui-title {
+  color: #fff;
+}
+
+.lt-header .lt-search {
+  color: #fff;
+  line-height: 44px;
+}
+/* 中间部分 */
+.content{
+	width: 100%;
+	padding-top:44px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+.content a{
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	background-color: #fff;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+}
+.content .bottom{
+	height: 80px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.content .bottom span{
+	display: inline-block;
+	margin-top: 16px;
+	color: #666;
+	font-size: 14px;
+	margin-left: 25px;
+
+}
+.content .bottom p{
+	margin-left: 25px;
+}
+.content .bottom .a{
+	position: absolute;
+	right: 10px;
+	top: 80px;
+}
+
+
+  /* 固定底部 */
+.lt-footer {
+  background-color: #046691;
+}
+.lt-footer .mui-item {
+  display: table-cell;
+  overflow: hidden;
+ /*  width: 1%; */
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #929292;
+}
+
+.lt-footer .mui-item span[class^='fa']{
+
+}
+.lt-footer .mui-item  {
+  color: #fff;
+}
+
+.lt-footer .mui-item.mui-active {
+  color: orange;
+}
+
+.lt-footer .mui-item span[class^='mui']{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+  
+  .lt-footer .mui-icon{
+    display: inline-block;
+    font-size: 24px;
+  }
